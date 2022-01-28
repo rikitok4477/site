@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400px;
+}
+
+.container {
+    display: block;
+    width: 1110px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    background-color: #E5E5E5;
+    padding: 17px 0 16px 500px;
+    
+}
+
+.menu-links {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    margin-right: 30px;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    background-color: #FFFFFF;
+    
+}
+
+.phone {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 40px 51px 0;
+    
+}
+
+.feedback {
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #FFFFFF;
+    padding: 12px 26px 13px 27px;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+
+.logo-photo {
+    padding: 20px 20px 20px 0;
+}
+
+.logo-picture {
+    padding: 41px 0 40px 0;
+    
+}
+
+.clearfix {
+    clear: both;
+}
+
+.call {
+    float: right;
+}
+
+.services {
+    font-size: 16px;
+    line-height: 19px; 
+    color: #000000;
+    text-decoration: none; 
+    margin-right: 40px;
+    
+}
+
+.second-menu {
+    background-color: #E5E5E5;
+    padding: 30px 0 30px 400px;
+}
+
+.info-product {
+    background-image: url(images/Rectangle\ 2.png);
+}
+
+.armchair {
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    margin-top: 192px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Roboto',sans-serif;
+    font-size: normal;
+    margin-right: 500px;
+}
+
+.about-armchair {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    width: 308px;
+    margin-top: 50px;
+    
+}
+
+.more {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #F13C6E;;
+    padding: 12px 26px 13px 27px;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin: 50px 800px 171px 0;
+    text-decoration: none;   
+}
+
+
