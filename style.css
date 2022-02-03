@@ -32,8 +32,7 @@ body {
 }
 
 .logo {
-    background-color: #FFFFFF;
-    
+    background-color: #FFFFFF;   
 }
 
 .phone {
@@ -57,7 +56,7 @@ body {
     padding: 12px 26px 13px 27px;
     border: 2px solid #F13C6E;
     border-radius: 40px;
-    margin-top: 40px;
+    margin-top: 37px;
 }
 
 .logo-photo {
@@ -67,7 +66,7 @@ body {
 }
 
 .logo-picture {
-    padding: 41px 0 40px 0;
+    padding: 47px 0 40px 0;
     display: inline-block;
     vertical-align: top;
     
@@ -140,6 +139,11 @@ body {
     line-height: 28px;  
     color: #000000;
     padding-top: 80px;
+    font-weight: bold;
+}
+
+.special-offers {
+    padding-bottom: 81px;
 }
 
 .about-chair {
@@ -156,6 +160,7 @@ body {
     letter-spacing: 0.05em;
     color: #000000;
     margin: 14px 87px 0 88px;
+    font-weight: bold;
 }
 
 .buy {
@@ -200,7 +205,16 @@ body {
     background: #F13C6E;
     display: inline-block;
     margin-right: 30px;
-   
+    background-image: url(images/Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: top 50% right 45px;
+    width: 540px;
+    vertical-align: top;
+}
+
+.bonus-card.bus {
+    background-image: url(images/Group\ \(2\).png);
+    background-position:  right 45px bottom 56px;
 }
 
 .bonuses {
@@ -235,34 +249,14 @@ body {
     border-color: #FFFFFF;
 }
 
-.mail {
-    margin: 53px 45px 53px 65px;
-    display: block;
-}
-
 .more.card {
     margin: 25px 0 35px 40px;
     border-radius: 30px;
     padding: 9px 26px 9px 25px;
 }
 
-.right {
-    display: inline-block;
-    vertical-align: top;
-}
-
-.left {
-    display: inline-block;
-    vertical-align: top;
-}
-
 .bonus-card:last-child {
     margin-right: 0;
-}
-
-.bus {
-    margin: 56px 45px 56px 32px;
-    display: block;
 }
 
 .impuls {
@@ -275,5 +269,69 @@ body {
     display: inline-block;
 }
 
+.popular {
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    font-weight: bold;
+    width: 99px;
+}
 
+.instrument {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    
+}
+
+.category {
+    padding-top: 59px;
+}
+
+.insturments {
+    margin-top: 55px;
+}
+
+.category-card {
+    display: inline-block;
+    margin-right: 186px;
+}
+
+.category-card:last-child {
+    margin-right: 0;
+}
+
+.instument-link {
+    text-decoration: none;
+    color: #828282;
+}
+
+.network {
+   margin: 38px 20px 38px 0;     
+}
+
+
+
+.footer-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+    padding: 25px 0;
+    display: inline-block;
+}
+
+.footer-link {
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
+    padding: 25px 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 345px;
+}
+
+.footer {
+    background-color: #EFEFEF;
+}
 
